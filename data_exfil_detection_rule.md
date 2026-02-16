@@ -335,3 +335,6 @@
             
             detect_fragmented_exfil(principal)
 ```
+
+This code doesn't calculate threshold, doesn't calculate risk, and doesn't make any kind of automated actions except alerting.
+It won't work if previously the logs are not configured, collected and ingested by SIEM.
